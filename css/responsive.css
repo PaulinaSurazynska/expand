@@ -1,0 +1,293 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 0px) and (max-width : 767px) {
+
+	/*****************************************************************************/
+	/*
+	/* Common
+	/*
+	/*****************************************************************************/
+
+	.centralized {
+		width: 100%;	
+	}
+
+	/* Section - Welcome */
+
+	h1 {
+		font-size: 40px;
+		padding: 0 20px;
+	}
+
+	/* City */
+	#the_city {
+		height: 303px;
+		max-width: 310px;
+	}
+
+	#the_city img {
+		display: none;
+	}
+
+	#the_city img#ground {
+	  max-width: 310px;
+	  display: block;
+	}
+
+	#the_city img#img1, #the_city img#img2, 
+	#the_city img#img3, #the_city img#img5, 
+	#the_city img#img7, #the_city img#img16, 
+	#the_city img#img15, #the_city img#img14, #the_city img#img13, #the_city img#img6 {
+		display: block;
+	}
+
+	/* first line */
+	#first_line #line {
+	  margin: 30px auto;
+	  left: inherit !important;
+	  display: block;
+	  width: 111px;
+	}
+
+	/* Section - About */
+	#about img {
+	  float: inherit !important;
+	  width: 100%;
+	}
+
+	#about h2 {
+		font-size: 40px;
+	}
+
+	#about .info {
+	  width: auto ;
+	  float: inherit ;
+	  top: inherit;
+	  margin-top: 40px;
+	  padding: 0 30px;
+	  text-align: center;
+	}
+
+	/* Second line */
+
+	#second_line #line_two {
+	  width: 85px;
+	}
+
+	/* Section - Services */
+	#services h2 {
+	  text-align: center;
+	  right: inherit;
+	  margin: 50px 0 40px;
+	  font-size: 40px;
+	}
+
+	#services #business_dev img {
+	  width: 270px;
+	  margin: 0 auto;
+	  float: inherit;
+	}
+
+	#services #business_dev .info {
+	  float: inherit;
+	  margin: 40px 0px 0px 0px;
+	  width: auto;
+	  padding: 0 30px;
+	  text-align: center;
+	}
+
+	/* Third line */
+
+	#third_line #line_three {
+	  display: none;
+	}
+
+	#services #marketing .info {
+	  float: inherit;
+	  max-width: 670px;
+	  text-align: left;
+	  margin: 40px 0 0 0;
+	  padding: 0 30px;
+	  text-align: center;
+	}
+
+	#services #marketing img {
+	  margin: 0 auto;
+	  float: inherit;
+	  padding: 80px 0 0 0;
+	}
+
+	/* Fourth line */
+
+	#fourth_line #line_four {
+	  display: none;
+	}
+
+	#services #account_manage img {
+	  width: 265px;
+	  margin: 60px auto 40px;
+	  float: inherit;
+	}
+
+	#services #account_manage .info {
+	  float: inherit;
+	  max-width: 680px;
+	  margin-left: 0px;
+	  padding: 0 30px;
+	  text-align: center;
+	}
+
+	/* Section - Ready */
+
+	#ready h2 {
+	  margin-bottom: 30px;
+	  font-size: 40px;
+	  padding: 0 30px;
+	}
+
+	#ready .actions_top {
+		margin-bottom: 60px;
+	}
+
+	#ready .actions_top .container {
+	  width: auto;
+	}
+
+	#ready .actions_top .btn {
+	  float: inherit;
+	  margin: 0 auto;
+	}
+
+	#ready .actions_top .cv {
+	  float: inherit;
+	  top: inherit;
+	  margin-top: 20px;
+	  display: block;
+	  margin-top: 20px;
+	  text-align: center;
+	}
+
+}
+
+/* Tablets (portrait) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+
+	/*****************************************************************************/
+	/*
+	/* Common
+	/*
+	/*****************************************************************************/
+
+	.centralized {
+		width: 710px;
+	}
+
+	h1 {
+		padding: 0 20px;
+	}
+
+	/* City */
+	#the_city, #the_city img#ground {
+	  max-width: 710px;
+	}
+
+	/* Section - About */
+	#about img {
+	  display: block;
+	  float: inherit;
+	  width: 315px;
+	  margin: -39px auto 20px;
+	  
+	}
+
+	#about .info {
+		width: 600px;
+		top: 0px;
+		margin: 0 auto;
+		text-align: center;
+		float: inherit;
+	}
+
+	/* Second line */
+
+	#second_line #line_two {
+	  margin-top: 20px;
+	}
+
+	/* Section - Services */
+
+	#services #business_dev img {
+		width: 240px;
+	}
+
+	#services #business_dev .info {
+	  float: left;
+	  margin: 39px 0px 0px 50px;
+	  width: 420px;
+	}
+
+	/* Third line */
+
+	#third_line #line_three {
+	  max-width: 548px;
+	  float: inherit;
+	  left: inherit;
+	  display: block;
+	  margin: 20px auto;
+	}
+
+	#services #marketing img {
+		width: 140px;
+	}
+
+	#services #marketing .info {
+		max-width: 520px;
+	}
+
+	/* Fourth line */
+
+	#fourth_line #line_four {
+	  max-width: 548px;
+	  float: inherit;
+	  left: inherit;
+	  display: block;
+	  margin: 20px auto;
+	}
+
+	#services #account_manage .info {
+	  max-width: 400px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
