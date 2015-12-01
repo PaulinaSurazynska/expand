@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+	
 	var winWidth = $(window).width();
 
 	//Detect the width of the window and if is smaller than 767px remove images
@@ -117,5 +117,20 @@ $(document).ready(function () {
 	}, 3600);
 	setTimeout(function(){
 		$("#img34").addClass("animated bounceLeft");		
-	}, 4000);
-})
+	}, 4000);	
+	
+	$(".sm_icons").mouseover(function(){
+		$(this).addClass("animated bounceIn");
+		
+	});
+	$(".sm_icons").mouseout(function(){
+		$(this).removeClass("animated bounceIn");
+	
+	});
+});
+
+	
+
+
+
+

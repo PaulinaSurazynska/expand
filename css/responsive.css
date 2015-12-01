@@ -1,3 +1,10 @@
+/*hidden elements on laptop screen*/
+@media only screen and (min-width:1024px){
+#icon_wrapper{
+	display:none; !important;
+}
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 0px) and (max-width : 767px) {
 
@@ -49,11 +56,7 @@
 	}
 
 	/* Section - About */
-	#about img {
-	  float: inherit !important;
-	  width: 100%;
-	}
-
+	
 	#about h2 {
 		font-size: 40px;
 	}
@@ -62,7 +65,7 @@
 	  width: auto ;
 	  float: inherit ;
 	  top: inherit;
-	  margin-top: 40px;
+	  #margin-top: 40px;
 	  padding: 0 30px;
 	  text-align: center;
 	}
@@ -70,7 +73,8 @@
 	/* Second line */
 
 	#second_line #line_two {
-	  width: 85px;
+	  #width: 85px;
+	  display:none;
 	}
 
 	/* Section - Services */
@@ -81,18 +85,36 @@
 	  font-size: 40px;
 	}
 
-	#services #business_dev img {
-	  width: 270px;
+	#services #marketing_dzial img, #services #marketing img, #services #branding img {
 	  margin: 0 auto;
 	  float: inherit;
+	  #padding: 80px 0 0 0;
 	}
 
-	#services #business_dev .info {
+	#services #web_dev img {
+		max-width: 265px;
+		margin: 0 auto;
+		float: inherit;
+		right: 0px;
+	}
+
+	#services #marketing_dzial .info, #services #marketing .info, #services #branding .info, #services #web_dev .info {
 	  float: inherit;
 	  margin: 40px 0px 0px 0px;
 	  width: auto;
 	  padding: 0 30px;
 	  text-align: center;
+	}
+
+	#services #web_dev .expertise {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#services #web_dev .expertise img {
+		float: none;
+		margin: 0 20px;
+		display: inline-block;
 	}
 
 	/* Third line */
@@ -101,7 +123,7 @@
 	  display: none;
 	}
 
-	#services #marketing .info {
+	#services #biznes .info {
 	  float: inherit;
 	  max-width: 670px;
 	  text-align: left;
@@ -110,10 +132,11 @@
 	  text-align: center;
 	}
 
-	#services #marketing img {
+	#services #biznes img {
+	  
+	  width: 270px;
 	  margin: 0 auto;
 	  float: inherit;
-	  padding: 80px 0 0 0;
 	}
 
 	/* Fourth line */
@@ -135,37 +158,79 @@
 	  padding: 0 30px;
 	  text-align: center;
 	}
+	/*Fifth line*/
+	#fifth_line{
+	  display:none;
+	}
+	/*Section Team*/
+	#team {
+		text-align: center;
+	}
+
+	#team h3 {
+		margin-top: 10px;
+	}
+
+	#team .info{
+		margin-top:40px;
+		padding: 0 20px;
+	}
+	#team .team_member{
+		width: 55%;
+		max-height:280px;
+		margin: 0 15px;
+		float: inherit;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	/* Section Blog */
+
+	#blog {
+		margin-top: -260px;
+	}
+	
+	/*Section Clients*/
+	#clients .logo_clients {
+		margin-top: 80px;
+	}
+	#clients .logo_clients a {
+		display: inline-block;
+		margin: 0 20px;
+	}
+	#clients .logo_clients a:nth-child(3) {
+		margin: 20px 12px;
+	}
+	#clients .logo_clients img {
+		margin: 0px !important;
+	}
 
 	/* Section - Ready */
 
 	#ready h2 {
-	  margin-bottom: 30px;
-	  font-size: 40px;
+	  margin-bottom: 20px;
+	  font-size: 39px;
 	  padding: 0 30px;
 	}
 
-	#ready .actions_top {
-		margin-bottom: 60px;
+	#ready #ready_info {
+		padding-bottom: 50px;
 	}
 
-	#ready .actions_top .container {
-	  width: auto;
+	#ready #icon_wrapper {
+		margin-bottom: 40px;
 	}
-
-	#ready .actions_top .btn {
-	  float: inherit;
-	  margin: 0 auto;
+	
+	
+	
+	/*Six line*/
+	#six_line {
+		display:none;
 	}
-
-	#ready .actions_top .cv {
-	  float: inherit;
-	  top: inherit;
-	  margin-top: 20px;
-	  display: block;
-	  margin-top: 20px;
-	  text-align: center;
+	/*Footer*/
+	#bilbord{
+		display:none;
 	}
-
 }
 
 /* Tablets (portrait) ----------- */
@@ -189,15 +254,19 @@
 	#the_city, #the_city img#ground {
 	  max-width: 710px;
 	}
+	#first_line #line {
+	  margin: 30px auto;
+	 
+	}
 
 	/* Section - About */
-	#about img {
+	#first_line #line {
+	  margin: 30px auto;
+	  left: inherit !important;
 	  display: block;
-	  float: inherit;
-	  width: 315px;
-	  margin: -39px auto 20px;
 	  
 	}
+
 
 	#about .info {
 		width: 600px;
@@ -215,14 +284,40 @@
 
 	/* Section - Services */
 
-	#services #business_dev img {
-		width: 240px;
+	#services #branding .info {
+		max-width: 460px;
 	}
 
-	#services #business_dev .info {
+	#services #branding img {
+		width: 200px;
+		top: 40px;
+		position: relative;
+	}
+
+	#services #web_dev .info {
+		max-width: 390px;
+		margin-left: 0px;
+	}
+
+	#services #web_dev > img {
+		width: 315px;
+		position: relative;
+		top: 20px;
+	}
+
+	#services #marketing .info {
+		max-width: 500px;
+	}
+
+	#services #marketing_dzial img {
+		margin-top:30px;
+		width: 140px;
+	}
+
+	#services #marketing_dzial .info {
 	  float: left;
 	  margin: 39px 0px 0px 50px;
-	  width: 420px;
+	  max-width: 420px;
 	}
 
 	/* Third line */
@@ -235,12 +330,13 @@
 	  margin: 20px auto;
 	}
 
-	#services #marketing img {
-		width: 140px;
+	#services #biznes img {
+		width: 240px;
+		margin-top:40px;
 	}
 
-	#services #marketing .info {
-		max-width: 520px;
+	#services #biznes .info {
+		max-width: 420px;
 	}
 
 	/* Fourth line */
@@ -256,9 +352,19 @@
 	#services #account_manage .info {
 	  max-width: 400px;
 	}
-
+	#team .team_member{
+	width:20%;
+	max-height:280px;
+	margin:0 auto;
+	}
+	
+	
+	#bilbord{
+		display:none;
+	}
+	
+	
 }
-
 
 
 
